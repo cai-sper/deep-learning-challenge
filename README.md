@@ -6,14 +6,9 @@ This project aims to assist Alphabet Soup, a nonprofit foundation, in identifyin
 
 ## Table of Contents
 
-1. [Usage](#usage)
-2. [Data Preprocessing](#data-preprocessing)
-3. [Modeling and Optimizations](#modeling-and-optimizations)
-4. [Results](#results)
-
-## Usage
-
-The project includes Jupyter Notebooks that walk through data preprocessing, model building, and optimizations. Run these notebooks to understand the modeling approach and to build your own models.
+1. [Data Preprocessing](#data-preprocessing)
+2. [Modeling and Optimizations](#modeling-and-optimizations)
+3. [Results](#results)
 
 ## Data Preprocessing
 

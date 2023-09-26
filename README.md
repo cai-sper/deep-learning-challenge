@@ -26,29 +26,25 @@ The project includes Jupyter Notebooks that walk through data preprocessing, mod
 * **Baseline Model**: Cutoff for `APPLICATION_TYPE` at 500 and `CLASSIFICATION` at 200.
 * **Optimization 1**: No change in binning cutoffs.
 * **Optimization 2**: `APPLICATION_TYPE` changed to 1000 and `CLASSIFICATION` to 1500.
-* **Optimization 3**: No noticeable change in binning cutoffs.
+* **Optimization 3**: No change in binning cutoffs.
 
 ## Modeling and Optimizations
 
 ### Baseline Model
 
-* **Function**: `create_model`
 * **Hyperparameter Tuning**: KerasTuner used for activation functions and neuron counts.
 * **Hidden Layers**: Up to 6 hidden layers allowed.
 
 ### Optimization 1
 
-* **Function**: `create_model`
 * **Changes**: None; same as the baseline model.
 
 ### Optimization 2
 
-* **Function**: `create_model`
 * **Changes**: Increased the `min_value`, `max_value`, and `step` values for neurons in hidden layers to range from 5 to 25 with steps of 5.
 
 ### Optimization 3
 
-* **Function**: `create_model`
 * **Changes**: Increased the `min_value`, `max_value`, and `step` values for neurons in the first layer to range from 10 to 90 with steps of 5. Neurons in hidden layers range from 5 to 30 with steps of 5.
 
 ## Results

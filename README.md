@@ -19,7 +19,7 @@ This project aims to assist Alphabet Soup, a nonprofit foundation, in identifyin
 ### Binning Cutoff Changes Across Optimizations
 
 * **Baseline Model**: Cutoff for `APPLICATION_TYPE` at 500 and `CLASSIFICATION` at 200.
-* **Optimization 1**: No change in binning cutoffs.
+* **Optimization 1**: Cutoff for `APPLICATION_TYPE` at 700 and `CLASSIFICATION` at 700.
 * **Optimization 2**: `APPLICATION_TYPE` changed to 1000 and `CLASSIFICATION` to 1500.
 * **Optimization 3**: No change in binning cutoffs.
 

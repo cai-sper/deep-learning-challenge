@@ -1,5 +1,5 @@
 # Alphabet Soup Funding Success Prediction
-
+ 
 ## Project Overview
 
 This project aims to assist Alphabet Soup, a nonprofit foundation, in identifying the most promising funding applicants. Using machine learning techniques, specifically neural networks, we aim to predict the success of various organizations based on historical data.
